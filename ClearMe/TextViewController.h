@@ -1,0 +1,16 @@
+//
+//  TextViewController.h
+//  ClearMe
+//
+//  Created by Derik Flanary on 1/13/15.
+//  Copyright (c) 2015 DevMountain. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface TextViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *label;
+@property (weak, nonatomic) IBOutlet UIButton *button;
+@property (weak, nonatomic) IBOutlet UITextField *textField;
+
+@end

@@ -19,6 +19,8 @@
 		711A504519386CFC005642EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 711A502D19386CFB005642EF /* UIKit.framework */; };
 		711A504D19386CFC005642EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 711A504B19386CFC005642EF /* InfoPlist.strings */; };
 		711A504F19386CFC005642EF /* ClearMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 711A504E19386CFC005642EF /* ClearMeTests.m */; };
+		EECCE3531A65FF3E009FB570 /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EECCE3511A65FF3E009FB570 /* TextViewController.m */; };
+		EECCE3541A65FF3E009FB570 /* TextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EECCE3521A65FF3E009FB570 /* TextViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		711A504A19386CFC005642EF /* ClearMeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClearMeTests-Info.plist"; sourceTree = "<group>"; };
 		711A504C19386CFC005642EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		711A504E19386CFC005642EF /* ClearMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClearMeTests.m; sourceTree = "<group>"; };
+		EECCE3501A65FF3E009FB570 /* TextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
+		EECCE3511A65FF3E009FB570 /* TextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
+		EECCE3521A65FF3E009FB570 /* TextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,9 @@
 			children = (
 				711A503819386CFB005642EF /* CMAppDelegate.h */,
 				711A503919386CFB005642EF /* CMAppDelegate.m */,
+				EECCE3501A65FF3E009FB570 /* TextViewController.h */,
+				EECCE3511A65FF3E009FB570 /* TextViewController.m */,
+				EECCE3521A65FF3E009FB570 /* TextViewController.xib */,
 				711A503B19386CFB005642EF /* Images.xcassets */,
 				711A503019386CFB005642EF /* Supporting Files */,
 			);
@@ -220,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EECCE3541A65FF3E009FB570 /* TextViewController.xib in Resources */,
 				711A503419386CFB005642EF /* InfoPlist.strings in Resources */,
 				711A503C19386CFB005642EF /* Images.xcassets in Resources */,
 			);
@@ -240,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EECCE3531A65FF3E009FB570 /* TextViewController.m in Sources */,
 				711A503A19386CFB005642EF /* CMAppDelegate.m in Sources */,
 				711A503619386CFB005642EF /* main.m in Sources */,
 			);
@@ -438,6 +448,7 @@
 				711A505419386CFC005642EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		711A505519386CFC005642EF /* Build configuration list for PBXNativeTarget "ClearMeTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +457,7 @@
 				711A505719386CFC005642EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
